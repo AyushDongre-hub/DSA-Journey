@@ -15,9 +15,9 @@ int main(){
     for(int val:l){
         cout<<val;
     }
-    
-    cout << endl;
 
+    cout << endl;
+    
     for(int val:l1){
         cout<<val;
     }
