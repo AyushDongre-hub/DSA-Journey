@@ -22,7 +22,7 @@ int main(){
         cout<<val;
     }
 
-    
+    cout << d[2];    //Random Access
 
 
     return 0;
