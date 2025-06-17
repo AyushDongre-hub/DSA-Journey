@@ -14,8 +14,20 @@ int main() {
     
     vec.pop_back();       //Remove from last
 
-    cout << vec[1] << " or " << vec.at(1);   //Same
+    cout << vec[1] << " or " << vec.at(1) << endl;   //Same
 
+    vector<int> vec1 = {1,2,3,4,5};
 
+    vector<int>::iterator itr;    //Forward Iterator
+    for(itr = vec1.begin(); itr != vec1.end(); itr++){
+        cout << *(itr) << " "; 
+    }   
+
+    cout<<endl;
+
+    vector<int>::reverse_iterator it;   //Reverse Iterator
+    for(it = vec1.rbegin(); it !=  vec1.rend(); it++){
+        cout << *(it) << " "; 
+    } 
     return 0;
 }
